@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 54px;
+}
+
+header {
+  background-color: #264653;
+  color: rgb(190, 190, 190);
+}
+.bton {
+  background-color: #f5481d;
+  color: rgb(207, 207, 207);
+  padding: 8px 40px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+.bton:hover {
+  background-color: #ffa38ce8;
+  font-size: 1.2rem;
+  color: black;
+}
+.Login {
+  background: #e76f51;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.button-class {
+  background-color: #f5481d;
+  color: rgb(207, 207, 207);
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+.button-clas {
+  color: #f5481d;
+  padding: 12px 30px;
+  border: 3px solid #f5481d;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+/* .card {
+  box-shadow: 4px 4px 10px gray;
+} */
+.user-img {
+  display: block;
+  margin: auto;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+.img-fluid {
+  max-width: 93%;
+  height: auto;
+}
+.byke {
+  width: 90%;
+}
+.bykes {
+  width: 90%;
+  filter: grayscale(100%);
+}
+.brand-title:hover .brand-img {
+  transform: scale(1.5);
+}
+.brand-img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 20%;
+  transition: transform linear 1s;
+}
+@media (max-width: 767px) {
+  .brand-img {
+    width: 95%;
+    height: 300px;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+}
